@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+ul
+    list-style: none
+
+
+.header
+    background: url(../image/header-bg.jpg)
+    height: 915px
+
+.header-top
+    background: rgba(255, 255, 255, 0.22)
+    height: 90px
+    text-align: center
+
+.header-top-left__heading
+    text-align: center
+
+.header-top-right__login-text
+    font-size: 16px
+    font-family: Lato
+
+.header-top-right__login-link
+    text-decoration: none
+    color: #fff
+    background: #267df4
+    padding: 10px 30px
+    border-radius: 30px
+    transition: .2s;
+    border: 1px solid transparent
+    &:hover
+        background: #fff
+        color: #000
+        border: 1px solid #c3c3c3
+
+.reg-form
+    background: rgba(255,255,255, .8);
+    margin-top: 88px
+    border-radius: 10px
+    padding: 40px 20px
+
+.reg-form__group
+    text-align: center
+    width: 323px
+    border-bottom: 1px solid #54544e
+    margin: 0 auto 50px
+
+.reg-form__group.chbox
+    border-bottom: none
+
+.reg-form__image
+    margin: 25px auto 25px
+    width: 268px
+
+.reg-form__free
+    text-transform: uppercase
+    color: #000
+    border: 1px solid #000
+    border-radius: 30px
+    width: 35px
+    padding: 10px 25px
+    margin: 0 auto 25px
+    font-family: latobold
+
+.reg-form__logo
+    min-width: 100%
+    margin-top: 25px
+
+.reg-form__text-input
+    border: none
+    background: none
+
+.reg-form__submit
+    background: #da094e
+    border: none
+    color: #fff
+    font-family: latoregular
+    padding: 20px 80px
+    border-radius: 30px
+    font-size: 20px
+    cursor: pointer
+    transition: .3s
+
+    &:hover
+        background #fff
+        color: #000
+
+.main-girl
+    padding: 85px 0 25px
+    position: relative
+
+.prev
+    width: 23px
+    height: 42px
+    border: none
+    background: url(../image/Arrow.png)
+    position: absolute
+    transform: translateY(-50%)
+    top: 50%
+    left: 30px
+    cursor: pointer
+
+.next
+    width: 23px
+    height: 42px
+    border: none
+    background: url(../image/Arrow1-.png)
+    position: absolute
+    transform: translateY(-50%)
+    top: 50%
+    right: 30px
+    cursor: pointer
+
+.main-girl-list
+    font-size: 0
+
+.main-girl-list__item
+    text-align: center
+    font-size: 16px
+    display: inline-block
+    width: 100%
+    margin-bottom: 30px
+
+.girl__image-wrapper
+    width: 272px
+    height: 272px
+    border-radius: 50%
+    overflow: hidden
+    margin: 0 auto
+
+.girl__image
+    min-width: 100%
+
+.girl__info
+    font-size: 16px
+    color: #8c8f94
+    text-transform: uppercase
+    font-weight: 600
+    margin-top: 35px
+    margin-bottom: 15px
+
+.girl__line
+    height: 2px
+    width: 50px
+    background: #267df4
+    display: block
+    margin: 0 auto 45px
+
+.girl__link
+    text-decoration: none
+    border: 1px solid #e9e9ea
+    border-radius: 30px
+    padding: 17px 65px
+    font-family: latoregular
+    font-size: 16px
+    color: #000
+    display: block
+    width: 85px
+    margin: 0 auto
+    transition: .3s
+
+    &:hover
+        background: #267df4
+        color: #fff
+
+.not-alone
+    text-align: center
+    height: 632px
+    background: url(../image/bglg.jpg) no-repeat
+    background-size: cover
+    background-position: top
+    color: #fff
+
+.not-alone__heading
+    font-size: 35px
+    font-weight: 600
+    text-transform: uppercase
+    font-family: ralewaybold
+    margin: 0
+    padding-top: 45px
+    padding-bottom: 18px
+
+.not-alone__text
+    font-size: 15px
+    margin: 0 auto
+    font-family: ralewayregular
+    margin-bottom: 30px
+
+.not-alone__heading-small
+    font-size: 12px
+    text-transform: uppercase
+    font-family: ralewayregular
+    margin-bottom: 32px
+
+.not-alone__link
+    text-decoration: none
+    color: #fff
+    background: #267df4
+    padding: 20px 38px
+    border-radius: 30px
+    font-size: 19px
+    text-transform: uppercase
+    font-family: ralewayregular
+    transition: .3s;
+    &:hover
+        background: #fff
+        color: #000
+
+.not-alone__wrapper-link
+    margin-top: 32px
+
+.footer
+    text-align: center
+
+.footer-social__item
+    display: inline-block
+    margin: 0 5px
+
+
+.footer__copyright
+    font-size: 12px
